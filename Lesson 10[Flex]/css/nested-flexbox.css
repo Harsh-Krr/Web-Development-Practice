@@ -1,0 +1,64 @@
+/* Example-1 */
+.example-1{
+    display: flex;
+    max-width: 300px;
+    height: 100px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    margin: 15px ;
+}
+.element-1{
+    display: flex;
+    background-color: lightpink;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.item-1{ 
+    background-color: black;
+    color: white;
+    
+}
+.element-2{
+    background-color: lightblue;
+    width: 200px;
+}
+
+/* Example-2 */
+.example-2{
+    display: flex;
+    max-width: 300px;
+    height: 60px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    margin: 15px ;
+}
+.element-3{
+    background-color: lightpink;
+    width: 100px;
+}
+.element-4{
+    background-color: lightblue;
+    width: 200px;
+    display: flex;
+
+}
+.item-2{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    flex: 1;
+}
+.row-2{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+
+    justify-content: space-between;
+}
+.item-3{
+    background-color: black;
+    color: white;
+}

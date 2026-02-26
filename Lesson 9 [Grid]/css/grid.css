@@ -1,0 +1,41 @@
+/* Grid Class */
+.grid1{
+    display: grid;
+    grid-template-columns: 200px 75px;
+    margin-top: 30px; 
+
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 50px 125px 1fr;
+
+    margin-top: 30px;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+/* DIV Class */
+.div1{
+    background-color: rgb(149, 222, 216);
+}
+
+.div2{
+    background-color: lightpink;
+
+}
+
+.div3{
+    background-color: lightblue;
+}
+
+.div4{
+    background-color: rgb(179, 227, 203);
+}

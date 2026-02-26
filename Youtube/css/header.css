@@ -1,0 +1,117 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    margin-bottom: 20px;
+    background-color: white;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 57px;
+
+    z-index: 100;
+    /* border: 1px solid green; */
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    border: 1px solid rgb(252, 76, 76);
+}
+.hamburger-menu{
+
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.yt-logo{
+    /* width: 100px; */
+    height: 20px;
+    cursor: pointer;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 470px;
+    margin-left: 60px;
+}
+.search-box {
+    display: flex;           /* Aligns items side-by-side perfectly */
+    align-items: center;     /* Ensures they are centered vertically */
+    width: 500px;
+}
+.searchbar{
+    flex: 1;
+    height: 38px;
+    padding-left: 12px;
+    font-size: 16px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 24px 0 0 24px;
+    border-right: none;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+    /* border-radius: none; */
+}
+.search-button{
+    width: 64px;
+    height: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(204, 204, 204);
+    cursor: pointer;
+    border-radius: 0 24px 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-button:hover{
+    background-color: rgb(230, 230, 230);
+}
+.search-img{
+    width: 25px;
+    align-items: center;
+}
+.microphone{
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(241, 240, 240);  
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    flex-shrink: 0;
+    margin-right: 24px;
+    margin-left: 29px;
+    
+    border: 1px solid;
+}
+.upload, .yt-apps, .notification{
+
+    height: 24px;
+    cursor: pointer;
+}
+.profile{
+    height: 32px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid black;
+}

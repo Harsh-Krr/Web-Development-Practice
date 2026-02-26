@@ -1,0 +1,57 @@
+/* Container */
+.profile {
+    display: flex;             /* Activates Flexbox */
+    align-items: center;       /* Vertically centers items perfectly */
+    justify-content: start;    /* Aligns items to the left */
+    gap: 20px;                 /* Adds equal space between the image, text, and button */
+    
+    width: 450px;              /* Adjusted to fit content neatly */
+    padding: 10px;
+    border: 1px solid #ddd;    /* Subtle border instead of thick gold */
+    border-radius: 8px;        /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a nice shadow */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Image styling */
+.cat {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;        /* Makes the image a perfect circle */
+    object-fit: cover;         /* Ensures image doesn't stretch */
+}
+
+/* Text styling */
+.description {
+    flex: 1;                   /* Takes up remaining space pushing button to right (optional) */
+}
+
+.name {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.type, .social {
+    display: block;
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+/* Button styling */
+.action {
+    background-color: rgb(83, 162, 242);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.action:hover {
+    background-color: rgb(60, 130, 200); /* Darker blue on hover */
+}

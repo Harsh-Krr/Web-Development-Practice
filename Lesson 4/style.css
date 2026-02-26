@@ -1,0 +1,14 @@
+.heading{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; /* Bolder */
+
+}
+.para{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.span{
+    text-decoration: underline;
+}
